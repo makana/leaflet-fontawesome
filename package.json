@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint ./src --ext .ts",
-    "prepublish": "npm run build && npm run lint"
+    "prepublish": "npm run build && npm run lint",
+    "postinstall": "npm run build"
   },
   "keywords": [
     "leaflet",
